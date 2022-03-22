@@ -103,7 +103,7 @@ def update_graph(drop_month, drop_year):
             order_fig1 = order
         
     return {'data':[go.Bar(
-        x = order_fig1['productname'],
+        x = order_fig1['emp_name'],
         y = order_fig1['total']
             )
         ]
