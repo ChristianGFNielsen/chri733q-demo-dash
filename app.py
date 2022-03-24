@@ -2,9 +2,9 @@
 # Imports
 # ***************************************
 # Dash
-from turtle import color
+# from turtle import color
 
-from matplotlib.colors import rgb2hex
+# from matplotlib.colors import rgb2hex
 import dash
 from dash import html
 from dash import dcc 
